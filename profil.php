@@ -1,25 +1,20 @@
 <?php
-
 $nom = "OUERTANI";
-$prenom = "Sarra";
-$email = "asma.ayari@email.com";
-
+$prenom = "SARRA";
+$email = "OUERTANISARRA081@GMAIL.COM";
+$age = 19;
 ?>
-
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Profil utilisateur</title>
+<title>Profil utilisateur</title>
 </head>
 <body>
-
-    <h1>Profil utilisateur</h1>
-
-    <p><strong>Nom :</strong> <?= $nom ?></p>
-    <p><strong>Prénom :</strong> <?= $prenom ?></p>
-    <p><strong>Email :</strong> <?= $email ?></p>
-    <p>Date : <?= date("H:i:s") ?></p>
-
+<h1>Profil utilisateur</h1>
+<p><strong>Nom :</strong> <?php echo $nom; ?></p>
+<p><strong>Prénom :</strong> <?php echo $prenom; ?></p>
+<p><strong>Email :</strong> <?php echo $email; ?></p>
+<p><strong>Âge :</strong> <?php echo $age; ?> ans</p>
+echo "<p>Bienvenue $SARRA dans la formation $MARKETING DEGITAL</p>";
 </body>
 </html>
